@@ -18,5 +18,5 @@ module.exports = (api, options, rootOptions) => {
       "eslint-plugin-vue": "^6.1.2",
     }
   });
-  api.render('../template');
+  api.render('./template');
 };

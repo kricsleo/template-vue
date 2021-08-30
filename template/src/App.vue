@@ -1,5 +1,6 @@
 <template>
   <div class="app">
+    <h5 :style="{textAligin: center}">Nothig here, but your imagination.</h5>
     <my-comp />
   </div>
 </template>
@@ -16,4 +17,10 @@ export default Vue.extend({
 });
 </script>
 
-<style lang="scss"></style>
+<style lang="scss">
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'JetBrains Mono', Consolas, 'Courier New', monospace;
+}
+</style>

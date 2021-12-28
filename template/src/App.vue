@@ -1,6 +1,6 @@
 <template>
   <div class="app">
-    <h5 :style="{textAligin: center}">Nothig here, but your imagination.</h5>
+    <h1 :style="{textAlign: 'center', color: '#ec3858'}">Nothig here, but your creation.</h1>
     <my-comp />
   </div>
 </template>
